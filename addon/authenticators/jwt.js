@@ -288,7 +288,6 @@ export default TokenAuthenticator.extend({
     Accepts a `url` and `data` to be used in an ajax server request.
 
     @method makeRequest
-    @private
   */
   makeRequest(url, data, headers) {
     return Ember.$.ajax({

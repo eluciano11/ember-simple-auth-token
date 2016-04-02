@@ -177,7 +177,6 @@ export default Base.extend({
     @method makeRequest
     @param {Object} data Object that will be sent to server
     @param {Object} headers Additional headers that will be sent to server
-    @private
   */
   makeRequest(data, headers) {
     return Ember.$.ajax({
